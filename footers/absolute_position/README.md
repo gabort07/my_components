@@ -1,0 +1,1 @@
+Egy footer absolute pozicióval

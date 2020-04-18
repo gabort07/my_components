@@ -1,0 +1,1 @@
+A footer táblázatként van kezelve és rendzve.

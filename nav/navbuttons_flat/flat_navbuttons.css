@@ -1,0 +1,42 @@
+/* ==== GENERAL STYLES ==== */
+* {
+   box-sizing: border-box;
+}
+
+body {
+  background-color: #eee;
+}
+
+
+section {
+  max-width: 29.375rem;
+  padding: 0.625rem;
+  margin: 1.25rem auto;
+  color: #333;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+h3 {
+  font-size: 24px;
+  font-family: Arial, sans-serif;
+  margin-bottom: 0.625rem;
+}
+
+.button-nav {
+  display: inline-block;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+  padding: 0.8rem 1rem;
+  margin-bottom: 10px;
+  border: 1px solid #000;
+  color: #000;
+}
+
+.button-nav:hover {
+  color: #fff;
+  background-color: #000;
+  transition: background-color 0.15s ease-in-out;
+}

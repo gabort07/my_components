@@ -1,0 +1,1 @@
+Egy teljes képernyős header, minta tartalommal.

@@ -1,0 +1,116 @@
+/*=== GENERAL STYLE ===*/
+* {
+  box-sizing: border-box;
+}
+
+/*=== NAV BASE STYLES ===*/
+
+nav {
+  background-color: rgba(0,0,0,.8);
+  padding: 1rem;
+}
+
+@media (min-width: 768px) { /* Táblagép szabványméret*/
+
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%
+  }
+
+}
+
+nav a {
+  display: block;
+  font-family: 'Space Mono', monospace;
+  font-size: 1.4rem;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  padding: .5rem 1rem;
+}
+
+nav a:hover {
+  color: hsl(0, 0%, 77%);
+  transition: color .20s ease-in-out;
+}
+
+
+@media (min-width: 768px) { /* Táblagép szabványméret*/
+
+  nav a {
+    width: 8rem;
+    float: right;
+  }
+
+   .home {
+    float: left;
+  }
+
+}
+
+/*=== PARAGRAPH STYLES ===*/
+
+p {
+  font-size: 1rem;
+  font-family: 'Space Mono', monospace;
+  margin-bottom: 1.25rem;
+  padding: .5rem;
+}
+
+@media (min-width: 768px) {
+
+  body {
+    width: 60%;
+    margin: 5.25rem auto 1.25rem;
+  }
+
+}
+
+
+/*=== SIGN IN BUTTON STYLE ===*/
+
+.sign_up {
+  border: 1px solid hsla(0,0%,100%,.2);
+  border-radius: 9999px;
+}
+
+.sign_up:hover {
+  background-color: #fff;
+  color: #000;
+  transition: background-color .20s ease-in-out;
+  transition: color .10s ease-in-out;
+}
+
+
+@media (min-width: 768px) { /* Táblagép szabványméret*/
+
+  /* Clearfix */
+    nav::after {
+    content: "";
+    clear: both;
+    display: block;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

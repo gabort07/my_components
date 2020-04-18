@@ -1,0 +1,1 @@
+Egy sticky footer bootstrap megoldása

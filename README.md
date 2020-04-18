@@ -1,2 +1,2 @@
-# my_first_components
+# my_components
  

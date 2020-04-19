@@ -1,0 +1,29 @@
+/*=== LINKS STYLING ===*/
+
+ul {
+  padding: 0.625rem;
+  list-style-type: none;
+}
+
+li {
+  filter: drop-shadow(10px 10px 4px gray);
+  display: inline;
+  padding: 1.375rem;
+}
+
+a {
+  color: rgba(209, 209, 209, 1);
+  filter: drop-shadow(10px 10px 3px black);
+}
+
+.fa-envelope:hover, .fa-facebook-square:hover {
+  color: #455eff;
+  transition: 0.9s;
+  transform: rotateY(360deg);
+}
+
+.fa-instagram:hover {
+  color: #ff69a5;
+  transition: 0.9s;
+  transform: rotateY(360deg);
+}

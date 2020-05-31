@@ -1,0 +1,8 @@
+.tagline::after {
+  display: block;
+  content: "";
+  background-color: #fff;
+  height: 1px;
+  width: ;
+  margin: ;
+}
